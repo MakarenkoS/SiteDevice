@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Страница каталога магазина «Device»</title>
+</head>
+<body>
+	<header class="page-header inner-page">
+		<h1 class="visually-hidden">Сайт магазина «Device»</h1>
+		<h2 class="page-header__logo logo-text">Device</h2>
+		<nav class="main-nav">	
+			<ul class="main-nav__list search-list">	
+				<li class="search-list__item search-link"><a href="#">Поиск по сайту</a></li>
+			</ul>
+			<ul class="main-nav user-list">	
+				<li class="user-list__item"><a href="#">Валентин Петухов</a></li>
+				<li class="user-list__item"><a href="#">Выйти</a></li>
+				<li class="user-list__item"><a href="#">Сравнить</a></li>
+				<li class="user-list__item"><a href="#">Корзина</a></li>
+			</ul>
+			<ul class="main-nav__list site-list">	
+				<li class="site-list__item"><a href="#">Каталог товаров</a></li>
+				<li class="site-list__item"><a href="#">Доставка</a></li>
+				<li class="site-list__item"><a href="#">Гарантия</a></li>
+				<li class="site-list__item"><a href="#">Контакты</a></li>
+			</ul>
+			<ul class="main-nav catalog-list">	
+				<li class="products__item products__item--vr">	
+					<a href="#">Виртуальная реальность</a>
+				</li>
+				<li class="catalog-list__item catalog-list__item--selfy">	
+					<a href="#">Моноподы для селфи</a>
+				</li>
+				<li class="catalog-list__item catalog-list__item--camera">	
+					<a href="#">Экшн камеры</a>
+				</li>
+				<li class="catalog-list__item catalog-list__item--bracelet">	
+					<a href="#">Фитнес-браслеты</a>
+				</li>
+				<li class="catalog-list__item catalog-list__item--clock">	
+					<a href="#">Умные часы</a>
+				</li>
+				<li class="catalog-list__item products__item--quadrocopters">	
+					<a href="#">Квадрокоптеры</a>
+				</li>		
+			</ul>
+		</nav>
+	</header>
+	<section class="group-name">	
+		<h2 class="group__header">Моноподы для селфи</h2>
+		<ul class="group__breadcrumbs breadcrumbs">	
+			<li class="breadcrumbs__item"><a href="#">Главная</a></li>
+			<li class="breadcrumbs__item"><a href="#">Каталог товаров</a></li>
+			<li class="breadcrumbs__item"><a>Моноподы для селфи</a></li>
+		</ul>
+	</section>
+
+	<section class="filter">
+		<form action="#" class="filter filter-form">
+			<h3 class="filter-form__caption">Фильтр:</h3>
+			<h4 class="filter-form__price">Стоимость</h4>
+			<!-- Тут будет ползунок -->
+			<h4 class="filter-form__color">Цвет</h4>
+			<label>
+				<input type="checkbox" class="filter-form__color-check" name="filter-form__color-check">
+				Черный
+			</label>
+			<label>
+				<input type="checkbox" class="filter-form__color-check" name="filter-form__color-check">
+				Белый
+			</label>
+			<label>
+				<input type="checkbox" class="filter-form__color-check" name="filter-form__color-check">
+				Синий
+			</label>
+			<label>
+				<input type="checkbox" class="filter-form__color-check" name="filter-form__color-check">
+				Красный
+			</label>
+			<label>
+				<input type="checkbox" class="filter-form__color-check" name="filter-form__color-check">
+			  Розовый
+			</label>
+			<h4 class="filter-form__color">Bluetooth</h4>
+			<label>
+				Есть
+				<input type="radio" class="filter-form__bluetooth" name=filter-form__bluetooth">
+			</label>
+			<label>
+				Нет
+				<input type="radio" class="filter-form__bluetooth" name=filter-form__bluetooth">
+			</label>
+	    <button type="submit" class="button filter-form__button">Показать</button>
+		</form>	
+
+	<section class="gallery">	
+		<div class="gallery__sort-wrapper">	
+	  	<h3 class="gallery__header">Сортировка:</h3>
+	  	<ul class="gallery__list sort-list">	
+				<li class="sort-list__item"><a href="#">По цене</a>	</li>
+				<li class="sort-list__item"><a href="#">По типу</a></li>
+				<li class="sort-list__item"><a href="#">По популярности</a>	</li>
+				<li class="sort-list__item sort-list__item--arrow arrow-top"><a href="#"><span class="visible-hidden">Больше</span></a>	</li>
+				<li class="sort-list__item sort-list__item--arrow arrow-bottom"><a href="#"><span class="visible-hidden">Меньше</span></a>	</li>
+	  	</ul>
+		</div>
+
+		<div class="gallery__cards-wrapper">	
+		  <ul class="gallery cards">	
+			<li class="cards__item">
+				<p class="cards__name">Любительская селфи-палка</p>	
+				<b class="cards__price">500 руб.</b>
+				<a href="#" class="cards__link">						
+				<img src="#" alt="Любительская селфи-палка" class="cards__picture">
+				</a>	
+			</li>
+			<li class="cards__item">
+				<p class="cards__name">Профессиональная селфи-палка</p>	
+				<b class="cards__price">1500 руб.</b>
+				<a href="#" class="cards__link">						
+				<img src="#" alt="Профессиональная селфи-палка" class="cards__picture">
+				</a>
+			</li>
+			<li class="cards__item">
+				<p class="cards__name">Непотопляемая селфи-палка</p>	
+				<b class="cards__price">2500 руб.</b>
+				<a href="#" class="cards__link">						
+				<img src="#" alt="Непотопляемая селфи-палка" class="cards__picture">
+				</a>
+			</li>
+			<li class="cards__item">
+				<p class="cards__name">Селфи-палка «Следуй за мной»</p>	
+				<b class="cards__price">4900 руб.</b>
+				<a href="#" class="cards__link">						
+				<img src="#" alt="Селфи-палка «Следуй за мной»" class="cards__picture">
+				</a>
+			</li>
+		  </ul>
+	    <div class="gallery pagination">	
+		  	<ul class="pagination__list">	
+				<li class="pagination__item"><a href="#">Назад</a></li>
+				<li class="pagination__item"><a href="#">1</a></li>
+				<li class="pagination__item"><a href="#">2</a></li>
+				<li class="pagination__item"><a href="#">3</a></li>
+				<li class="pagination__item"><a href="#">Вперед</a></li>
+		  	</ul>
+		  </div>
+		</div>			
+	</section>
+
+	<footer class="page-footer">	
+		<div class="page-footer__wrapper">	
+			<h2 class="contacts__logo logo-text">Device</h2>
+			<ul class="page-footer user-list">	
+				<li class="user-list__item"><a href="#">Выйти</a></li>
+				<li class="user-list__item"><a href="#">Сравнить</a></li>
+				<li class="user-list__item"><a href="#">Корзина</a></li>
+			</ul>
+
+			<div class="page-footer__contacts contacts">	
+				<p class="contacts__address">г. Москва, ул. Строителей, 15</p>
+			</div>
+
+			<div class="page-footer__social social">	
+				<ul class="social__list site-list">	
+					<li class="site-list__item"><a href="#">Доставка</a></li>
+					<li class="site-list__item"><a href="#">Гарантия</a></li>
+					<li class="site-list__item"><a href="#">Контакты</a></li>
+		 		</ul>
+			  <ul class="social__list social__nets">	
+					<li class="social__item">	
+						<a href="#" class="social__link social__link--facebook">Мы в Фейсбуке</a>
+					</li>
+					<li class="social__item">	
+						<a href="#" class="social__link social__link--instagram">Мы в Инстаграме</a>
+					</li>
+					<li class="social__item">	
+						<a href="#" class="social__link social__link--twitter">Мы в Твитере</a>
+					</li>
+				</ul>
+			</div>
+			<div class="page-footer phone">	
+				<b class="phone-number">Тел.: +7 (495) 495-95-95</b>
+			</div>
+		</div>
+	</footer>	
+</body>
+</html>
