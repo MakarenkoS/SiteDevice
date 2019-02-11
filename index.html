@@ -2,51 +2,64 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Главная страница магазина «New Device»</title>
+	<title>Главная страница магазина «Device»</title>
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 	<header class="page-header">
-		
-		<h2 class="page-header__logo logo-text">MegaDevice</h2>
-		<nav class="main-nav">	
-			<ul class="main-nav__list search-list">	
-				<li class="search-list__item search-link"><a href="#">Поиск по сайту</a></li>
-			</ul>
-			<ul class="main-nav user-list">	
-				<li class="user-list__item"><a href="#">Войти</a></li>
-				<li class="user-list__item"><a href="#">Сравнить</a></li>
-				<li class="user-list__item"><a href="#">Корзина</a></li>
-			</ul>
-			<ul class="main-nav__list site-list">	
-				<li class="site-list__item"><a href="#">Каталог товаров</a></li>
-				<li class="site-list__item"><a href="#">Доставка</a></li>
-				<li class="site-list__item"><a href="#">Гарантия</a></li>
-				<li class="site-list__item"><a href="#">Контакты</a></li>
-			</ul>
-			<ul class="main-nav catalog-list">	
-				<li class="products__item products__item--vr">	
-					<a href="#">Виртуальная реальность</a>
-				</li>
-				<li class="catalog-list__item catalog-list__item--selfy">	
-					<a href="#">Моноподы для селфи</a>
-				</li>
-				<li class="catalog-list__item catalog-list__item--camera">	
-					<a href="#">Экшн камеры</a>
-				</li>
-				<li class="catalog-list__item catalog-list__item--bracelet">	
-					<a href="#">Фитнес-браслеты</a>
-				</li>
-				<li class="catalog-list__item catalog-list__item--clock">	
-					<a href="#">Умные часы</a>
-				</li>
-				<li class="catalog-list__item products__item--quadrocopters">	
-					<a href="#">Квадрокоптеры</a>
-				</li>
-				
-			</ul>
-		</nav>
+		<div class="container">
+			<div class="page-header__wrapper">
+			  <h2 class="page-header__logo logo-text">Device</h2>	
+				<nav class="main-nav">
+				<div class="navigation-wrapper__column">	
+					<ul class="main-nav__list search-list">	
+						<li class="search-list__item"><a href="#">Поиск по сайту</a></li>
+					</ul>
+					<ul class="main-nav__list catalog-list">
+						<li class="catalog-list__item"><a href="#">Каталог товаров</a>
+						</li>
+	 				</ul>
+				</div>
+				<div class="navigation-wrapper__column">
+				  <ul class="main-nav__list user-list">	
+						<li class="user-list__item user-list__item--user"><a href="#">Войти</a></li>
+						<li class="user-list__item user-list__item--compare"><a href="#">Сравнить</a></li>
+						<li class="user-list__item user-list__item--cart"><a href="#">Корзина</a></li>
+					</ul>
+					<ul class="main-nav__list site-list">	
+						<li class="site-list__item"><a href="#">Доставка</a></li>
+						<li class="site-list__item"><a href="#">Гарантия</a></li>
+						<li class="site-list__item"><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+				</nav>
+	  	</div>
+	  </div>
 	</header>
 	<main class="page-main">	
+		<section class="products">
+			<ul class="products-list">	
+					<li class="products__item products__item--vr">	
+						<a href="#">Виртуальная реальность</a>
+					</li>
+					<li class="catalog-list__item catalog-list__item--selfy">	
+						<a href="#">Моноподы для селфи</a>
+					</li>
+					<li class="catalog-list__item catalog-list__item--camera">	
+						<a href="#">Экшн камеры</a>
+					</li>
+					<li class="catalog-list__item catalog-list__item--bracelet">	
+						<a href="#">Фитнес-браслеты</a>
+					</li>
+					<li class="catalog-list__item catalog-list__item--clock">	
+						<a href="#">Умные часы</a>
+					</li>
+					<li class="catalog-list__item products__item--quadrocopters">	
+						<a href="#">Квадрокоптеры</a>
+					</li>		
+				</ul>
+
+		</section>
 		<section class="popular">	
 		<h2 class="visually-hidden">Популярные товары</h2>
 		<div class="popular__wrapper slider">	

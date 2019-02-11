@@ -1,0 +1,34 @@
+.search-list {
+	margin: 0;
+	padding: 0;
+}
+
+.search-list__item a {
+	color : #000;
+	opacity: 0.3;
+	font-size: 15px;
+	line-height: 36px;
+	font-weight: lighter;
+	font-family: "Open Sans";
+}
+
+.search-list__item {	
+	position: relative;
+	padding-left: 40px;
+}
+
+.search-list__item::before {
+	position: absolute;
+	content: "";
+	background-image: url("../img/search-icon.svg");
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	left: 0;
+	top: 10px;
+	opacity: 1;
+}
+
+.search-list__item a:hover {
+	opacity: 0.6;
+}

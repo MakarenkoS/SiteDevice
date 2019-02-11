@@ -3,8 +3,8 @@
 	src: 
 	url("../fonts/gilroyextrabold.woff") format("woff"),
 	url("../fonts/gilroyextrabold.woff2") format("woff2");             
-    font-style: normal;
-    font-weight: bold;    
+  font-style: normal;
+  font-weight: bold;    
 }
 
 @font-face {    
@@ -40,8 +40,8 @@ html,body {
 	font-family: 'PT Sans Narrow',sans-serif;
 	margin: 0;
 	padding: 0;
-	color:#fff;
-	text-transform: uppercase;
+	color:#000;
+	/*text-transform: uppercase;*/
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 700;

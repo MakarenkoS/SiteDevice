@@ -1,0 +1,41 @@
+.catalog-list{
+	margin: 0;
+	padding: 0;
+	margin-top: 42px;
+}
+
+.catalog-list__item {
+	position: relative;
+}
+
+.catalog-list__item a{
+	text-transform: uppercase;
+	font-family: "Gilroy";
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 23px;
+}
+
+.catalog-list__item a:hover {
+	opacity: 0.6;
+}
+
+.catalog-list__item a:focus {
+	opacity: 0.3;
+}
+
+.catalog-list__item::before,
+.catalog-list__item::after{
+	position: absolute;
+	content: "";
+	width: 16px;
+	height: 2px;
+	background-color: #b8a974;
+	top: 10px;
+	right: -30px;
+}
+
+.catalog-list__item::after {
+	transform: rotate(90deg);
+}
