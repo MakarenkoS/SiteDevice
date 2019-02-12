@@ -1,7 +1,18 @@
 .site-list {
 	margin: 0;
 	padding: 0;
+	position: relative;
 }
+
+.site-list::after {
+	position: absolute;
+	content: "";
+	width: 100px;
+	height: 7px;
+	background-color: #fff;
+	top: 108px;
+}
+
 
 .site-list__item {
 	position: relative;
