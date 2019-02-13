@@ -45,9 +45,6 @@ html,body {
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 700;
-	background-image: url("../img/bg.jpg");
-	background-position: center top;
-	background-repeat: no-repeat;
 }
 
 .visually-hidden:not(:focus):not(:active),
