@@ -111,14 +111,14 @@
 				</li>
 				</ul>
 			<p class="popular__toggles slider__toggles">	
-				<input type="radio" name="slider__toggle" id="slider__toggle-1" class="slider__toggle slider__toggle--1 visually-hidden" checked>
-				<label for="slider__toggle-1" ></label>
+				<input type="radio" name="slider__toggle" id="slider__toggle--1" class="slider__toggle slider__toggle--1 visually-hidden">
+				<label for="slider__toggle--1" ></label>
 
-				<input type="radio" name="slider__toggle" id="slider__toggle-2" class="slider__toggle slider__toggle--2 visually-hidden">
-				<label for="slider__toggle-2"></label>
+				<input type="radio" name="slider__toggle" id="slider__toggle--2" class="slider__toggle slider__toggle--2 visually-hidden" checked>
+				<label for="slider__toggle--2"></label>
 
-				<input type="radio" name="slider__toggle" id="slider__toggle-3" class="slider__toggle slider__toggle--3 visually-hidden">
-				<label for="slider__toggle-3"></label>
+				<input type="radio" name="slider__toggle" id="slider__toggle--3" class="slider__toggle slider__toggle--3 visually-hidden">
+				<label for="slider__toggle--3"></label>
 			</p>
 			</div>
 	
@@ -127,7 +127,8 @@
 		
 		<section class="products">	
 		<h2 class="visually-hidden">Категории продуктов</h2>
-		<ul class="products__list">	
+		<div class="container">
+		  <ul class="products__list">	
 			<li class="products__item products__item--vr">	
 				<a href="#">Виртуальная реальность</a>
 			</li>
@@ -137,26 +138,29 @@
 			<li class="products__item products__item--camera">	
 				<a href="#">Экшн камеры</a>
 			</li>
-			<li class="products__item products__item--bracelet">	
+			<li class="products__item products__item--braces">	
 				<a href="#">Фитнес-браслеты</a>
 			</li>
-			<li class="products__item products__item--clock">	
+			<li class="products__item products__item--whatches">	
 				<a href="#">Умные часы</a>
 			</li>
-			<li class="products__item products__item--quadrocopters">	
+			<li class="products__item products__item--quadro">	
 				<a href="#">Квадрокоптеры</a>
 			</li>
-		</ul>
+		  </ul>
+		</div>
 		</section>
 
 		<section class="services">	
-				<ul class="services__list">
-					<li class="services__item--current"><a href="#">Доставка</a></li>
-					<li class="services__item"><a href="#">Гарантия</a></li>
-					<li class="services__item"><a href="#">Кредит</a></li>
-				</ul>	
-				<div class="services__slides">	
-					<div class="services__slide services__slide--delivery">	
+			<div class="container">		
+				<div class="services__wrapper">	
+			  	<ul class="services__list">
+						<li class="services__item services__item--current"><a class="button" href="#">Доставка</a></li>
+						<li class="services__item"><a class="button" href="#">Гарантия</a></li>
+						<li class="services__item"><a class="button" href="#">Кредит</a></li>
+			  	</ul>	
+				  <div class="services__slides">	
+					<div class="services__slide services__slide--delivery services__slide--visible">	
 						<h3 class="services__name">Доставка</h3>
 						<p class="services__description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
 					</div>
@@ -169,7 +173,9 @@
 						<h3 class="services__name">Кредит</h3>
 						<p class="services__description">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
 					</div>
-				</div>
+				  </div>
+			  </div>
+			</div>
 		</section>
 
 		<section class="brands">	

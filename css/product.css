@@ -1,0 +1,80 @@
+.products__list {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0;	
+	padding: 0;	
+	margin-top: 160px;
+}
+
+.products__item {
+	width: 160px;
+	position: relative;
+}
+
+.products__item a {
+	color: #000;
+	font-family: 'Gilroy';
+	font-size: 18px;
+	line-height: 24px;	
+	font-weight: 	bolder;
+}
+
+.products__item::before {
+	position: absolute;
+	content: "";
+	width: 160px;
+	height: 160px;
+	background-color: #f0c52e;
+	top: -180px;
+	left: 0;
+	opacity: 0.5;
+}
+
+.products__item a::after {
+	position: absolute;
+	content: "";
+	width: 160px;
+	height: 160px;
+	top: -180px;
+	left: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.products__item--vr a::after {
+	background-image: url("../img/popular-vr.png");
+}
+
+.products__item--selfy a::after {
+	background-image: url("../img/popular-selfy.png");
+}
+
+.products__item--camera a::after {
+	background-image: url("../img/popular-camera.png");
+}
+
+.products__item--braces a::after {
+	background-image: url("../img/popular-braces.png");
+}
+
+.products__item--whatches a::after {
+	background-image: url("../img/popular-whatches.png");
+}
+
+.products__item--quadro a::after {
+	background-image: url("../img/popular-quadro.png");
+}
+
+.products__item:hover::before {
+	opacity: 1;
+}
+
+.products__item a:focus::after {
+	opacity: 0.3;
+}
+
+.products__item a:focus {
+	opacity: 0.3;
+}
