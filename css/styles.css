@@ -11,5 +11,17 @@
 @import url("button.css");
 @import url("product.css");
 @import url("services.css");
+@import url("brands.css");
+@import url("location.css");
+@import url("info.css");
 
+.columns__wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: 145px;	
+}
 
+.page-footer {
+	margin-top: 200px;	
+}

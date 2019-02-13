@@ -1,0 +1,28 @@
+
+.brands__list {
+	margin: 0;	
+	padding: 0 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;	
+	margin-top: 90px;	
+}
+
+.brands__item {
+	width: 260px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.brands__item img {
+	opacity: 0.2;
+	filter: saturate(0);
+}
+
+.brands__item img:hover{
+	opacity: 1;
+	filter: saturate(1);
+}
