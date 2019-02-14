@@ -1,10 +1,28 @@
 .logo-text {
-	position: relative;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-family: "Gilroy";
 	font-size: 48px;
-	margin: 0;
-	padding: 0;
-	top: -12px;
+	line-height: 48px;	
+	color: #000;
 }
+
+.logo-text:hover {
+	opacity: 0.6;
+}
+
+.logo-text:focus {
+	opacity: 0.3;
+}
+
+.logo-text--yellow {
+	color: #ffc600;
+}
+
+/*.logo-text--yellow:hover {
+	opacity: 0.6;
+}
+
+.logo-text--yellow:focus {
+	opacity: 0.3;
+}*/
