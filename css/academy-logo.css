@@ -1,0 +1,13 @@
+.academy-logo {
+	width: 26px;
+	height: 34px;
+	margin-left: auto;
+}
+
+.academy-logo__image:hover {
+	opacity: 0.6;
+}
+
+.academy-logo__image:focus {
+	opacity: 0.3;
+}

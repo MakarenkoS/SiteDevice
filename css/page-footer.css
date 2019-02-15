@@ -1,0 +1,62 @@
+.page-footer {
+	background-color: #464646;
+	margin-top: 190px;	
+	
+}
+
+.page-footer__wrapper {
+	position: relative;
+}
+
+.page-footer__columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+.page-footer__logo {
+	margin: 0;	
+	padding: 0;	
+  width: 260px;
+	padding-top: 65px;	
+}
+
+.page-footer__list {
+	width: 360px;
+	margin-top: 65px;	
+}
+
+.page-footer__contacts {
+	width: 360px;
+	padding-top: 20px;	
+}
+
+.page-footer__social {
+	width: 440px;
+	padding-top: 20px;	
+	padding-bottom: 66px;
+}
+
+.page-footer__phone {
+	width: 360px;
+	padding-top: 20px;	
+	
+}
+
+.page-footer__wrapper::after {
+	position: absolute;
+	content: "";
+	width: 100px;
+	height: 7px;
+	background-color: #ffc600;
+	left: 0px;
+
+	bottom: 67px;
+}
+
+.page-footer__academy-logo {
+	
+	margin-top: 60px;
+	display: flex;
+
+	justify-content: right;
+}

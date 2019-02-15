@@ -1,10 +1,11 @@
 
 .page-header {
 	padding-top: 40px;
-	position: relative;
+
 }
 
 .page-header__wrapper {
+	position: relative;
 	background-color: #f7e296;
 	padding: 0 60px;
 	padding-bottom: 165px;
@@ -23,7 +24,10 @@
 	width: 100px;
 	height: 7px;
 	background-color: #fff;
-	right: 600px;
+	right: 500px;
 	bottom: 67px;
 }
 
+.page-header .container {
+	position: relative;
+}

@@ -13,7 +13,9 @@
 				<nav class="main-nav">
 				<div class="navigation-wrapper__column">	
 					<ul class="main-nav__list search-list">	
-						<li class="search-list__item"><a href="#">Поиск по сайту</a></li>
+						<!-- <li class="search-list__item"><a href="#">Поиск по сайту</a></li> -->
+						<input type="text" class="search-list__edit" value="Поиск по сайту">
+						<button type="button" class="search-list__button" value="Найти">Найти</button>
 					</ul>
 					<ul class="main-nav__list catalog-list">
 						<li class="catalog-list__item"><a href="#">Каталог товаров</a>
@@ -34,6 +36,39 @@
 				</div>
 				</nav>
 	  	</div>
+
+		  <section class="modal modal-menu">	
+			<h2 class="visually-hidden">Категории товаров</h2>
+			<div class="container">
+			  <div class="modal-menu__wrapper modal-menu__wrapper--visible">	
+				<ul class="modal-menu__list modal-menu__list--1">
+					<li class="modal-menu__item">
+						<a href="#">Виртуальная реальность</a>
+					</li>
+					<li class="modal-menu__item">
+						<a href="#">Моноподы для селфи</a>
+					</li>
+					<li class="modal-menu__item">
+						<a href="#">Экшн камеры</a>
+					</li>
+				</ul>
+				<ul class="modal-menu__list modal-menu__list--2">
+					<li class="modal-menu__item">
+						<a href="#">Фитнес браслеты</a>
+					</li>
+					<li class="modal-menu__item">
+						<a href="#">Умные часы</a>
+					</li>
+				</ul>
+				<ul class="modal-menu__list modal-menu__list--3">
+					<li class="modal-menu__item">
+						<a href="#">Квадрокоптеры</a>
+					</li>
+				</ul>
+			  </div>
+			</div>		
+		  </section>
+
 	  </div>
 	</header>
 	<main class="page-main">	
@@ -332,17 +367,25 @@
 		</footer>		
 		<section class="modal modal-feedback">
 			<h2 class="visually-hidden">Форма обратной связи</h2>
+			<div class="modal-feedback__wrapper"></div>
 			<form action="#" method="POST" class="modal-feedback__form">
-				<label for="modal-feedback__name">Ваше имя:</label>
-				<input type="text" name="modal-feedback__name" id="modal-feedback__name" placeholder="Представьтесь, пожалуйста">
+				<p class="modal-feedback__input">
+					<label for="modal-feedback__name">Ваше имя:</label>
+					<input type="text" name="modal-feedback__name" class="modal-feedback__name" id="modal-feedback__name" placeholder="Представьтесь, пожалуйста">
+				</p>
+				<p class="modal-feedback__input">
 				<label for="modal-feedback__email">Ваш e-mail:</label>
-				<input type="text" name="modal-feedback__email" id="modal-feedback__email" placeholder="Для отправки ответа">
+				<input type="text" name="modal-feedback__email" class="modal-feedback__email" id="modal-feedback__email" placeholder="Для отправки ответа" required>
+				</p>
+				<p class="modal-feedback__textarea">
 				<label for="modal-feedback__text">Текст письма</label>
-				<textarea name="modal-feedback__text" id="modal-feedback__text" cols="30" rows="10" 
-				placeholder="В свободной форме"></textarea>
+				<textarea class="modal-feedback__text" name="modal-feedback__text" id="modal-feedback__text" cols="30" rows="10" 
+				placeholder="В свободной форме" required></textarea>
+				</p>
 				<button type="submit" class="button modal-feedback__button">Отправить</button>
 			</form>
-			<button type="button" class="modal-feedback__button-close"><span class="visually-hidden">Закрыть</span>	</button>
+			
+			<button type="button" class="modal-feedback__close button-close"><span class="visually-hidden">Закрыть</span>	</button>
 		</section>
 		<section class="modal modal-map">	
 			<h2 class="visually-hideen">Карта</h2>
@@ -352,7 +395,7 @@
 				<span class="visually-hidden">Закрыть</span>	</button>
 			</div>
 
-		</section>
+
 	</main>
 
 	

@@ -25,6 +25,7 @@
 	opacity: 0.6;
 }
 
+
 .catalog-list__item a:focus {
 	opacity: 0.3;
 }
