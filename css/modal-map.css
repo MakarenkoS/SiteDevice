@@ -1,0 +1,18 @@
+.modal-map {
+	display: none;
+}
+
+.modal-map__wrapper {
+	width: 994px;
+	height: 560px;
+	position: fixed;
+	left: 50%;
+	margin-left: -497px;
+	top: 150px;
+	z-index: 4;
+}
+
+.modal-map--show {
+	display: block;
+}
+

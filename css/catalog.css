@@ -1,0 +1,12 @@
+.catalog__columns-wrapper {
+	display: flex;
+}
+
+.catalog__columns-wrapper--filter {
+	width: 330px;
+}
+
+.catalog__columns-wrapper--gallery {
+	width: 830px;
+}
+

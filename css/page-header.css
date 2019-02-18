@@ -1,0 +1,41 @@
+
+.page-header {
+	padding-top: 40px;
+
+}
+
+.page-header__wrapper {
+	position: relative;
+	background-color: #f7e296;
+	padding: 0 60px;
+	padding-bottom: 165px;
+}
+
+.inner-page .page-header__wrapper {
+	padding-bottom: 55px;
+}
+
+.page-header__logo {
+	position: relative;
+	top: -22px;
+	margin: 0;
+	padding: 0;
+}
+
+.page-header__wrapper::after {
+	position: absolute;
+	content: "";
+	width: 100px;
+	height: 7px;
+	background-color: #fff;
+	right: 500px;
+	bottom: 67px;
+}
+
+.inner-page .page-header__wrapper::after {
+	display: none;
+}
+
+.page-header .container {
+	position: relative;
+}

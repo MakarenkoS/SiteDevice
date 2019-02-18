@@ -1,0 +1,18 @@
+.group-name {
+	padding-left: 60px;
+}
+.group__header {
+	margin: 0;
+	padding: 0;
+	font-size: 47px;
+	line-height: 58px;
+	color: #000;
+	font-family: "Gilroy";
+	font-weight: bold;
+	margin-top: 45px;
+}
+
+.group__breadcrumbs {
+	margin-top: 20px;
+
+}

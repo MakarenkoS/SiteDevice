@@ -1,0 +1,35 @@
+.bluetooth__label {
+	position: relative;
+	padding-left: 40px;
+	margin-bottom: 15px;
+}
+
+.bluetooth__label .radio-indicator { 
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	border: 2px solid black;
+	width: 25px;
+	height: 25px;
+	left: 0;
+	right: 0;
+}
+
+.bluetooth__label .radio-indicator:hover { 
+	opacity: 0.6;
+}
+
+.bluetooth__label input[type="radio"]:checked + .radio-indicator::before { 	
+	content:"";
+	position: absolute;
+	border-radius: 50%;
+	background-color: #000;
+	width: 9px;
+	height: 9px;
+	left: 6px;
+	top: 7px;
+}
+
+.bluetooth__label input[type="radio"]:checked + .radio-indicator:hover::before { 	
+  opacity: 0.6;
+}

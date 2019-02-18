@@ -1,0 +1,37 @@
+.social__net {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	width:160px;
+	margin: 0 auto;
+	justify-content: space-around;
+	margin-top: 65px;
+}
+
+.social__net--link path {
+	fill: #7e7e7e;
+}
+
+.social__net--link rect {
+	fill: #7e7e7e;
+}
+
+
+.social__net--link:hover path {
+	fill: #b5b5b5;
+}
+
+.social__net--link:hover rect {
+	fill: #b5b5b5;
+}
+
+
+.social__net--link:focus path {
+	fill: #595959;
+}
+
+.social__net--link:focus rect {
+	fill: #595959;
+}

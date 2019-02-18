@@ -1,0 +1,55 @@
+.color__label {
+	position: relative;
+	padding-left: 40px;
+	cursor: pointer;
+	margin-bottom: 17px;
+}
+
+.color__label input[type="checkbox"] + .color__name {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 23px;
+	height: 23px;
+	border: 2px solid #000;
+	border-radius: 5px;
+}
+
+.color__label input[type="checkbox"]:hover + .color__name {
+	opacity: 0.6;
+}
+.color__label input[type="checkbox"]:checked:hover + 
+.color__name::before,
+.color__label input[type="checkbox"]:checked:hover + 
+.color__name::after {
+	opacity: 0.6;
+}
+
+
+.color__label input[type="checkbox"]:checked + 
+.color__name::before,
+.color__label input[type="checkbox"]:checked + 
+.color__name::after {
+	position: absolute;
+	content:"";
+	width: 12px;
+	height: 4px;
+	background-color: #000;
+	left: 6px;
+	top: 5px;
+}
+
+.color__label input[type="checkbox"]:checked + 
+.color__name::after {
+	width: 20px;
+	height: 5px;
+	transform: rotate(-45deg);
+}
+
+.color__label input[type="checkbox"]:checked + 
+.color__name::before {
+	left: 2px;
+	top: 8px;
+	transform: rotate(45deg);
+}
+

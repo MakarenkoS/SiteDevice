@@ -1,0 +1,37 @@
+.button-close {
+	position: absolute;
+	right: 32px;
+	top: 22px;
+	width: 55px;
+	height: 55px;
+	background-color: #f7e296;
+	outline: none;
+	border-radius: 50%;
+	border: none;
+}
+
+.button-close:hover {
+	background-color: #f0c52e;
+}
+
+.button-close:focus {
+	background-color: #faedc0;
+}
+
+.button-close::before,
+.button-close::after {
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 3px;
+	background-color: #fff;
+	left: 12px;
+}
+
+
+.button-close::before{
+	transform: rotate(-45deg);
+}
+.button-close::after {
+	transform: rotate(45deg);
+}

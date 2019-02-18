@@ -1,0 +1,77 @@
+.columns__wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: 145px;	
+}
+
+.info {
+	width: 560px;
+	position: relative;
+}
+
+.info::before {
+	content: "";
+	position: absolute;
+	width: 80px;
+	height: 7px;
+	background-color: #000;
+	left: 0;
+	top: -48px;
+}
+
+
+.info__header {
+	padding: 0;	
+	margin: 0;	
+	font-size: 47px;	
+	line-height: 60px;	
+	font-family: 	"Gilroy";
+	font-weight: bold;
+	margin-bottom: 50px;	
+}
+
+.info__text {
+	margin: 0;	
+	padding: 0;	
+	font-family: "Open Sans";
+	margin-top: 30px;
+	font-style: 15px;	
+	line-height: 30px;	
+	font-weight: lighter;
+	color: #464646;
+	padding-right: 100px;	
+}
+
+.info__company-list {
+	margin: 0;	
+	padding: 0;	
+	padding-left: 40px;	
+	list-style: none;	
+	font-size: 16px;
+	line-height: 40px;	
+	font-family: "Gilroy";
+	font-weight: bold;
+	margin-top: 55px;
+}
+
+.info__company-name {
+	position: relative;
+}
+
+.info__company-name::before {
+	position: absolute;
+	content: "";
+	border: 2px solid #e6e6e6;
+	left: -35px;
+  top: 15px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+}
+
+.info__button {
+	position: absolute;
+	left:0;
+	bottom: -70px;
+}
