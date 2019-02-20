@@ -13,7 +13,7 @@
 				<nav class="main-nav">
 				<div class="navigation-wrapper__column">	
 					<ul class="main-nav__list search-list">	
-						<!-- <li class="search-list__item"><a href="#">Поиск по сайту</a></li> -->
+	
 						<input type="text" class="search-list__edit" value="Поиск по сайту">
 						<button type="button" class="search-list__button" value="Найти">Найти</button>
 					</ul>
@@ -24,8 +24,8 @@
 				</div>
 				<div class="navigation-wrapper__column">
 				  <ul class="main-nav__list user-list">	
-						<li class="user-list__item user-list__item--user user-list__item--user-logon"><a href="#">Валентин Петухов</a></li>
-						<li class="user-list__item user-list__item--user-logout"><a href="#">Выйти</a></li>
+						<li class="user-list__item user-list__item--user "><a href="#">Валентин Петухов</a></li>
+						<li class="user-list__item user-list__item--logout"><a href="#">Выйти</a></li>
 						<li class="user-list__item user-list__item--compare"><a href="#">Сравнить</a></li>
 
 						<li class="user-list__item user-list__item--cart"><a href="#">Корзина</a></li>
@@ -123,11 +123,12 @@
 			</ul>
 		</div>
 	</section>
+	
+	
 	<div class="container">
 	<div class="catalog__columns-wrapper">
 		<div class="catalog__columns-wrapper--filter">
-			<section class="filter">
-			
+			<section class="filter">			
 				<h3 class="filter-form__caption">Фильтр:</h3>
 				<form action="#" class="filter filter-form">
 					<h4 class="filter-form__price">Стоимость</h4>
@@ -183,71 +184,101 @@
 		</div>
 		<div class="catalog__columns-wrapper--gallery">
 			<section class="gallery">	
-
-		<div class="gallery__sort-wrapper">	
-	  	<h3 class="gallery__header">Сортировка:</h3>
-	  	<ul class="gallery__list sort-list">	
-				<li class="sort-list__item"><a href="#">По цене</a>	</li>
-				<li class="sort-list__item"><a href="#">По типу</a></li>
-				<li class="sort-list__item"><a href="#">По популярности</a>	</li>
-				<li class="sort-list__item sort-list__item--arrow arrow-top"><a href="#"><span class="visible-hidden">Больше</span></a>	</li>
-				<li class="sort-list__item sort-list__item--arrow arrow-bottom"><a href="#"><span class="visible-hidden">Меньше</span></a>	</li>
-	  	</ul>
-		</div>
+		
+				<div class="gallery__sort-wrapper">	
+		  		<h3 class="gallery__header">Сортировка:</h3>
+		  		<ul class="gallery__list sort-list">	
+						<li class="sort-list__item sort-list__item--active"><a href="#">По цене</a>	</li>
+						<li class="sort-list__item"><a href="#">По типу</a></li>
+						<li class="sort-list__item"><a href="#">По популярности</a>	</li>
+						<li class="sort-list__item sort-list__item--arrow arrow-top"><a href="#"><span class="visually-hidden">Больше</span></a>	</li>
+						<li class="sort-list__item sort-list__item--arrow arrow-bottom sort-list__item--active"><a href="#"><span class="visually-hidden">Меньше</span></a>	</li>
+		  		</ul>
+	  		</div>
+		
 
 		<div class="gallery__cards-wrapper">	
 		  <ul class="gallery cards">	
-			<li class="cards__item">
-				<p class="cards__name">Любительская селфи-палка</p>	
-				<b class="cards__price">500 руб.</b>
-				<a href="#" class="cards__link">						
-				<img src="#" alt="Любительская селфи-палка" class="cards__picture">
+				<li class="cards__item">
+
+				<div class="cards__description">
+					<p class="cards__name"> <a href="#" class="cards__link">	Любительская селфи-палка </a> 
+					</p>	
+					<b class="cards__price">500 руб.</b>
+				</div>
+				<a href="#" class="cards__link" >						
+				<img src="img/item-1.jpg" width="360" height="380" alt="Любительская селфи-палка" class="cards__picture">
 				</a>	
-			</li>
-			<li class="cards__item">
-				<p class="cards__name">Профессиональная селфи-палка</p>	
-				<b class="cards__price">1500 руб.</b>
+				<div class="cards__hover-block">
+					<button type="button" class="cards__button button"><span class="cards__button-text"> В Корзину </span></button>	
+					<span class="cards__add">Добавить к сравнению</span>
+				</div>
+				</li>
+				<li class="cards__item">
+				<div class="cards__description">
+					<p class="cards__name"> <a href="#" class="cards__link">	Профессиональная селфи-палка
+					</a></p>	
+					<b class="cards__price">1500 руб.</b>
+			  </div>
 				<a href="#" class="cards__link">						
-				<img src="#" alt="Профессиональная селфи-палка" class="cards__picture">
+				<img src="img/item-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка" class="cards__picture">
 				</a>
-			</li>
-			<li class="cards__item">
-				<p class="cards__name">Непотопляемая селфи-палка</p>	
-				<b class="cards__price">2500 руб.</b>
+				<div class="cards__hover-block">
+					<button type="button" class="cards__button button"><span class="cards__button-text"> В Корзину </span></button>	
+					<span class="cards__add">Добавить к сравнению</span>
+				</div>
+				</li>
+				<li class="cards__item">
+				<div class="cards__description">
+					<p class="cards__name"> <a href="#" class="cards__link"> Непотопляемая селфи-палка
+					</a> </p>	
+					<b class="cards__price">2500 руб.</b>
+				</div>
 				<a href="#" class="cards__link">						
-				<img src="#" alt="Непотопляемая селфи-палка" class="cards__picture">
+				<img src="img/item-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка" class="cards__picture">
 				</a>
-			</li>
-			<li class="cards__item">
-				<p class="cards__name">Селфи-палка «Следуй за мной»</p>	
-				<b class="cards__price">4900 руб.</b>
+				<div class="cards__hover-block">
+					<button type="button" class="cards__button button"><span class="cards__button-text"> В Корзину </span></button>	
+					<span class="cards__add">Добавить к сравнению</span>
+				</div>
+				</li>
+				<li class="cards__item cards__item--new">
+				<div class="cards__description">
+				  <p class="cards__name"> <a href="#" class="cards__link">	Селфи-палка «Следуй за мной» </a></p>
+				  <b class="cards__price">4900 руб.</b>	
+			  </div>		
 				<a href="#" class="cards__link">						
-				<img src="#" alt="Селфи-палка «Следуй за мной»" class="cards__picture">
+				<img src="img/item-4.jpg" alt="Селфи-палка «Следуй за мной»" width="360" height="380" class="cards__picture">
 				</a>
-			</li>
+				<div class="cards__hover-block">
+					<button type="button" class="cards__button button"><span class="cards__button-text"> В Корзину </span></button>	
+					<span class="cards__add">Добавить к сравнению</span>
+				</div>
+				</li>
 		  </ul>
 	    <div class="gallery pagination">	
 		  	<ul class="pagination__list">	
-				<li class="pagination__item"><a href="#">Назад</a></li>
-				<li class="pagination__item"><a href="#">1</a></li>
+				<li class="pagination__item pagination__item--back"><a href="#">Назад</a></li>
+				<li class="pagination__item pagination__item--active"><a href="#">1</a></li>
 				<li class="pagination__item"><a href="#">2</a></li>
 				<li class="pagination__item"><a href="#">3</a></li>
-				<li class="pagination__item"><a href="#">Вперед</a></li>
+				<li class="pagination__item pagination__item--forward"><a href="#">Вперед</a></li>
 		  	</ul>
 		  </div>
-		</div>			
-			</section>
+		</div>
+	
+		</section>
 		</div>
 		</div>
 	</div>
-	<footer class="page-footer">	
+	<footer class="page-footer inner-page">	
 			<div class="container">	
 				<div class="page-footer__wrapper">	
 					<div class="page-footer__columns">
 			    <a href="#" class="page-footer__logo logo-text logo-text--yellow"> Device </a>
 			    	<ul class="page-footer__list user-list user-list--footer">	
-							<li class="user-list__item user-list__item--user user-list__item--user-logon"><a href="#">Валентин Петухов</a></li>
-							<li class="user-list__item user-list__item--user-logout"><a href="#">Выйти</a></li>
+							
+							<li class="user-list__item user-list__item--logout"><a href="#">Выйти</a></li>
 							<li class="user-list__item user-list__item--compare"><a href="#">Сравнить</a></li>
 							<li class="user-list__item user-list__item--cart"><a href="#">Корзина</a></li>
 			     	</ul>

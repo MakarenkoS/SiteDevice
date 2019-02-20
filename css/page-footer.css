@@ -1,7 +1,10 @@
 .page-footer {
 	background-color: #464646;
 	margin-top: 190px;	
-	
+}
+
+.inner-page.page-footer {
+	margin: 0;	
 }
 
 .page-footer__wrapper {

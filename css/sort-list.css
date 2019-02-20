@@ -1,0 +1,85 @@
+.sort-list {
+	padding: 24px 0;	
+	margin: 0;	
+	list-style: none;	
+	display: 	flex;
+	flex-direction: row;
+	justify-content:left;
+	width: 560px;
+	font-family: "Open Sans";
+	font-weight: normal;	
+	background-color: #ebebeb;
+
+}
+
+.sort-list__item {
+	margin-right: 20px;	
+}
+
+.sort-list__item--arrow {
+	margin-left: 150px;
+	margin-right: 30px;	
+	
+}
+
+.arrow-bottom {
+	margin-left: 0;	
+	margin-right: 0;	
+}
+
+.sort-list__item a {
+	color: #000;
+	opacity: 0.3;
+}
+
+.sort-list__item--active a {
+	opacity: 1;
+}
+
+.sort-list__item a:hover {
+	opacity: 0.6;
+}
+
+.sort-list__item a:focus {
+	opacity: 1;
+}
+
+.sort-list__item--arrow a {
+	position: relative;
+}
+
+.sort-list__item--arrow a::after {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border: 5px solid black;
+	opacity: 0.3;
+}
+
+.sort-list__item--active a::after {
+	opacity: 1;
+}
+
+.sort-list__item--arrow:hover::after {
+	opacity: 0.6;
+}
+
+.sort-list__item--arrow a:focus::after {
+	opacity: 1;
+}
+
+.arrow-top a::after {
+	border-top-width: 10px;
+	border-bottom-color: transparent;
+	border-left-color:transparent;
+	border-right-color: transparent;
+	top: 4px;
+}
+
+.arrow-bottom a::after {
+  border-bottom-width: 10px;
+	border-top-color: transparent;
+	border-left-color:transparent;
+	border-right-color: transparent;
+}

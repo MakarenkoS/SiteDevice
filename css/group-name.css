@@ -1,5 +1,6 @@
 .group-name {
 	padding-left: 60px;
+	position: relative;
 }
 .group__header {
 	margin: 0;
@@ -16,3 +17,15 @@
 	margin-top: 20px;
 
 }
+
+.group-name::after {
+	z-index: -1;
+	content: "";
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	top: 136px;
+	/*background-color: #555;*/
+  background: linear-gradient(to right, #dbdbdb 0%, #dbdbdb 50%, #ebebeb  50%, #ebebeb 100%);
+}
+

@@ -3,7 +3,7 @@
 	line-height: 22px;
 	font-family: "Gilroy";
 	font-weight: bold;
-	
+	margin-top: 42px;	
 }
 
 .filter-form__caption {
@@ -12,7 +12,7 @@
 	text-transform: uppercase;	
 	padding: 24px 0;	
   background-color: #dcdcdc;
-	margin-top: 42px;	
+	
 	padding-left: 60px;
 }
 

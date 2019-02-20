@@ -1,0 +1,27 @@
+.gallery {
+	margin-top: 42px;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: "Gilroy";
+	font-weight: bold;
+}
+
+.gallery__sort-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+
+.gallery__cards-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.gallery__header {
+	margin: 0;
+	padding: 24px 0;
+	text-transform: uppercase;	
+	padding-left: 73px;	
+	background-color: #ebebeb;
+	width: 273px;
+}

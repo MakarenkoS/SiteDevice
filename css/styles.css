@@ -30,9 +30,10 @@
 @import url("bluetooth.css");
 @import url("color.css");
 @import url("catalog.css");
-
-
-
+@import url("gallery.css");
+@import url("sort-list.css");
+@import url("cards.css");
+@import url("pagination.css");
 
 
 
