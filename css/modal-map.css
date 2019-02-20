@@ -8,11 +8,12 @@
 	position: fixed;
 	left: 50%;
 	margin-left: -497px;
-	top: 150px;
+	top: 100px;
 	z-index: 4;
 }
 
 .modal-map--show {
 	display: block;
+
 }
 

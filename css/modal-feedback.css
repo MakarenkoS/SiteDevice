@@ -14,8 +14,16 @@
 }
 
 .modal-feedback--show {
-	/*display: block;*/
+	display: block;
+	animation-name: bounce;
+	animation-duration: 1s;
 }
+
+.modal-feedback--error {
+	animation-name: error;
+	animation-duration: 0.4s;
+}
+
 .modal-feedback__form {
 	position: relative;
 	display: flex;

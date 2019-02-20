@@ -87,7 +87,10 @@
 	left: 0;
 }
 
-
+.user-list__item--logout {
+	margin-left: 0;
+	padding-left: 0;
+}
 /*.user-list--footer {
 	padding-left: 30px;
 }
