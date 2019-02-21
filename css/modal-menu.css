@@ -1,24 +1,24 @@
 
-
-
 .modal-menu__wrapper {
-	
 	width: 1160px;
 	justify-content: left;
 	background-color: #f7e296;
 	padding-left: 60px;
+	padding-top:20px;
 	position: absolute;
-	left: 0;
-	top:-150px;
+	left: -60px;
+  top: 20px;
 	z-index: 3;
-	display: none;
-}
-
-.modal-menu__wrapper--visible {
 	display: flex;
+  visibility: hidden;
 }
 
 
+.modal-menu__wrapper:hover,
+.catalog-list__item a:hover~.modal-menu__wrapper {
+	visibility: visible;
+
+}
 
 .modal-menu__list {
 	list-style: none;
@@ -39,6 +39,7 @@
 	line-height: 30px;
 	font-weight: lighter;
 	color: #000;
+	text-transform: none;
 }
 
 .modal-menu__item a:hover {

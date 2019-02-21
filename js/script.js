@@ -15,18 +15,8 @@ var map = document.querySelector(".modal-map");
 var mapClose = document.querySelector(".modal-map__close");
 
 
-catalog.addEventListener("mouseover",function(evt) {
-	menu.classList.add("modal-menu__wrapper--visible");
-	menuOn = true;
-});
 
 
-if (menuOn) {
-menu.addEventListener("mouseout",function(evt) {
-	menu.classList.remove("modal-menu__wrapper--visible");
-	menuOn = false;
-});
-}
 
 feedbackButton.addEventListener("click", function(evt) {
 	evt.preventDefault();
@@ -50,17 +40,22 @@ feedbackSumbitButton.addEventListener("click", function(evt) {
 
 feedbackForm.addEventListener("submit", function(evt){
 	// feedback.classList.remove("modal-feedback--error");
-	   evt.preventDefault();
+	   
     feedback.classList.remove("modal-feedback--error")
-		if (!feedbackLogin.value) {
-			feedback.offsetWidth=feedback.offsetWidth;
+		if ((!feedbackLogin.value)||(!feedbackEmail.value)||(!feedbackText.value
+			)) {
+		 evt.preventDefault();
+		 feedback.offsetWidth=feedback.offsetWidth;
 		 feedback.classList.add("modal-feedback--error");
-		 feedbackLogin.style.backgroundColor=""===feedbackLogin.value?"#f6dada":"#eaeaea"
+		 feedbackLogin.style.backgroundColor=""===feedbackLogin.value?"#f6dada":"#eaeaea";
+		 feedbackEmail.style.backgroundColor=""===feedbackEmail.value?"#f6dada":"#eaeaea"
+		 feedbackText.style.backgroundColor=""===feedbackText.value?"#f6dada":"#eaeaea"
+		 feedbackLogin.focus();
 		}
 		
 		// feedbackForm.classList.remove("modal-feedback--error");
 		
-		feedbackLogin.focus();
+		
 	
 });
 

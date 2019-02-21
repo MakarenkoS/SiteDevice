@@ -91,8 +91,29 @@
 			<section class="filter">			
 				<h3 class="filter-form__caption">Фильтр:</h3>
 				<form action="https://echo.htmlacademy.ru" class="filter filter-form">
-					<h4 class="filter-form__price">Стоимость</h4>
+					<h4 class="filter-form__price price">Стоимость</h4>
 					<!-- Тут будет ползунок -->
+						<div class="price__wrapper">
+							<div class="price__scale">
+								<div class="price__bar">
+									<div class="price__handles">
+										<div class="price__handle price__handle--start"></div>
+										<div class="price__handle price__handle--end"></div>
+									</div>
+								</div>	
+							</div>
+            
+							<div class="price__input-wrapper">
+								<label class="price__input--label">От
+									<input type="text" class="price__input price__input--min" name="price__input--min" placeholder="0">
+								</label>
+								<label class="price__input--label">До
+									<input type="text" class="price__input price__input--max" name="price__input--max" placeholder="5000">
+								</label>
+							</div>
+
+						</div>
+
 					<h4 class="filter-form__color">Цвет</h4>
 						<div class="filter-form__color-wrapper color">	
 							<label class="color__label color__label--black">
