@@ -32,8 +32,6 @@
 	opacity: 0.3;
 }
 
-
-
 .user-list__item a {
 	font-family: "Open Sans";
 	font-weight: lighter;
@@ -90,6 +88,10 @@
 .user-list__item--logout {
 	margin-left: 0;
 	padding-left: 0;
+}
+
+.page-footer .user-list__item--logout {
+	padding-left: 30px;
 }
 /*.user-list--footer {
 	padding-left: 30px;
