@@ -20,22 +20,42 @@
 	margin-bottom: 140px;
 }
 
-.services__list .button {
+.services__delivery--radio:checked ~ .services__slides .services__slide--delivery,
+.services__warranty--radio:checked ~ .services__slides .services__slide--warranty,
+.services__credit--radio:checked ~ .services__slides .services__slide--credit {
+	display: block;
+}
+
+.services__delivery--radio:checked ~ .services__list .services__button--delivery,
+.services__warranty--radio:checked ~ .services__list .services__button--warranty,
+.services__credit--radio:checked ~ .services__list .services__button--credit {
+	background: #000;
+	color: #f7e184;
+	width: 280px;
+	text-align: left;
+}
+
+
+.services__button {
 	width: 160px;
 }
 
+/*.services__list .button {
+	width: 160px;
+}
+*/
 .services__item {
 	margin-bottom: 25px;	
 }
 
-.services__item a:focus{
+/*.services__item a:focus{
 	background-color: #000;
 	width: 280px;
 	text-align: left;
 	color: #f7e184;
-}
+}*/
 
-.services__item a:focus::after {
+.services__item::after {
 	content: "";
 	position: absolute;
 	width: 7px;
@@ -45,19 +65,12 @@
 	background-color: #000;
 }
 
+
 .services__slide {
 	width: 880px;
 	padding-left: 120px;
 	padding-right: 300px;	
 	display: none;	
-} 
-
-.services__slide--visible {
-	display: block;	
-}
-
-.services__item a:focus .services__slide {
-	display: block;
 }
 
 

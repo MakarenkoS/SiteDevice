@@ -34,7 +34,7 @@
 @import url("sort-list.css");
 @import url("cards.css");
 @import url("pagination.css");
-
+@import url("price.css");
 
 
 @keyframes bounce {
@@ -50,97 +50,5 @@
 	50% {transform: translateX(-10px);}
 	75% {transform: translateX(10px);}
 	100% {transform: translateX(0);}
-}
-
-.price__wrapper {
-	width: 200px;
-	position: relative;
-	margin-top: 38px;
-	font-family: "Gilroy";
-}
-
-.price__scale {
-	width: 100%;
-	background-color: #dbdbdb;
-	height: 2px;
-}
-
-.price__bar {
-	width: 75%;
-	height: 2px;
-	background-color: #91c92f;
-}
-
-.price__handles {
-	position: absolute;
-	top:-10px;
-	left:-10px;
-}
-
-.price__handle{
-	position: absolute;
-	width: 20px;
-	height: 20px;
-	content: "";
-
-	background-color: #ffffff;
-	border-radius: 50%;
-	box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-}
-
-.price__handle::after{
-	position: absolute;
-	width: 4px;
-	height: 4px;
-	content: "";
-	top: 8px;
-	left:8px;
-	background-color: #ababab;
-	border-radius: 50%;
-}
-
-.price__handle:hover::after {
-	background-color: #000;
-}
-
-.price__handel--start{
-	left: 0;
-}
-.price__handle--end {
-	margin-left: 150px;
-}
-
-.price__input-wrapper {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 30px;
-	font-size: 14px;
-	line-height: 22px;
-	color: #c6c6c6;
-	font-weight: lighter;
-}
-
-.price__input--label:hover {
-	color: #000;
-}
-
-.price__input::-webkit-input-placeholder,
-.price__input {
-	color: #c6c6c6;
-}
-
-.price__input:hover::-webkit-input-placeholder,
-.price__input:hover {
-	color: #000;
-}
-
-.price__input {
-	padding-left: 10px;
-	width: 60px;
-	text-align: left;
-  font: inherit;
-	background-color: transparent;
-	border: none;
-	color: #c6c6c6;
 }
 
