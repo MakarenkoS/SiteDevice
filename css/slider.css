@@ -1,7 +1,7 @@
 
 .slider {
 	position: relative;
-	top: -120px;
+	top: -143px;
 	z-index: 1;
 }
 
@@ -28,8 +28,8 @@
 .slider__labels {
 	list-style: none;
 	position: absolute;
-	right: 200px;
-	top: 400px;
+	right: 160px;
+	top: 329px;
 }
 
 .slider label {
@@ -49,11 +49,11 @@
 }
 
 .slider__label--2 {
-	left: 20px;
+	left: 33px;
 }
 
 .slider__label--3 {
-	left: 40px;
+	left: 66px;
 }
 
 .slider__toggle--1:checked ~ .slider__labels .slider__label--1::before,
@@ -126,23 +126,26 @@
 	line-height: 58px;
 	font-family: "Gilroy";
 	font-weight: bold;
-	margin-top: 85px;
+	margin-top: 98px;
 }
 
 .slider__description {
 	margin: 0;
 	padding: 0;
-	margin-top: 28px;
+	margin-top: 17px;
 	font-size: 15px;
 	line-height: 30px;
 	font-family: "Open Sans";
 	font-weight: lighter;
 	color: #464646;
-	margin-bottom: 54px;
+}
+
+.slider__button {
+	margin-top: 45px;
 }
 
 .slider__table {
-	margin-top: 66px;
+	margin-top: 48px;
 
 }
 
@@ -151,7 +154,7 @@
 	font-size: 36px;
 	line-height: 44px;
 	font-weight: lighter;
-	padding-right: 40px;
+	padding-right: 72px;
 }
 
 .slider__stat {
@@ -161,7 +164,7 @@
 	font-weight: 	normal;
 	color: #464646;
 	padding-right: 40px;
-	padding-top: 18px;
+	padding-top: 6px;
 }
 
 

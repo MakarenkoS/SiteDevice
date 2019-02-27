@@ -12,6 +12,7 @@
 	background-color: #f0c52e;
 	background: linear-gradient(to bottom, transparent 0%, transparent 40%, #f1da36  40%, #f1da36 60%, transparent  60%, transparent  100%);
 	border: none;
+	letter-spacing: 0.14em;
 }
 
 .button:hover {

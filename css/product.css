@@ -5,12 +5,13 @@
 	justify-content: space-between;
 	margin: 0;	
 	padding: 0;	
-	margin-top: 160px;
+	margin-top: 159px;
 }
 
 .products__item {
 	width: 160px;
 	position: relative;
+	
 }
 
 .products__item a {
@@ -27,7 +28,7 @@
 	width: 160px;
 	height: 160px;
 	background-color: #f0c52e;
-	top: -180px;
+	top: -189px;
 	left: 0;
 	opacity: 0.5;
 }
@@ -37,7 +38,7 @@
 	content: "";
 	width: 160px;
 	height: 160px;
-	top: -180px;
+	top: -190px;
 	left: 0;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -49,6 +50,7 @@
 
 .products__item--selfy a::after {
 	background-image: url("../img/popular-selfy.png");
+	background-position: center bottom;
 }
 
 .products__item--camera a::after {

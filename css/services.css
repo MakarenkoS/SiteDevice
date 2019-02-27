@@ -7,7 +7,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 165px;
+	margin-top: 150px;
 }
 
 .services__list {
@@ -17,8 +17,9 @@
 	width: 280px;
 	list-style: none;
 	position: relative;	
-	margin-bottom: 140px;
+	margin-bottom: 116px;
 }
+
 
 .services__delivery--radio:checked ~ .services__slides .services__slide--delivery,
 .services__warranty--radio:checked ~ .services__slides .services__slide--warranty,
@@ -38,6 +39,7 @@
 
 .services__button {
 	width: 160px;
+	padding-left: 	20px;
 }
 
 /*.services__list .button {
@@ -84,7 +86,7 @@
 	padding: 0;
 	font-size: 47px;	
 	line-height: 60px;	
-	text-transform: uppercase;		
+	
 }
 
 .services__description {
@@ -93,6 +95,9 @@
 	line-height: 30px;	
 	font-weight: lighter;
 	color: #464646;
+	margin: 0;	
+	padding: 0;	
+	margin-top: 	22px;
 }
 
 .services__slide::after {

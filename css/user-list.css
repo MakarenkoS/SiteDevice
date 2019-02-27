@@ -6,7 +6,8 @@
 	justify-content: flex-end;
 	list-style: none;
 	flex-direction: row;
-	width: 500px;
+	width: 550px;
+	padding-right: 8px;	
 }
 
 .user-list__item {
@@ -16,13 +17,14 @@
 }
 
 .user-list__item {
-	margin-left: 35px;	*/
+	margin-left: 35px;	
+
 } 
 
 .user-list__item--user {
-	margin-right: auto;
+	
 	margin-left: 0;	
-	margin-right: 0;
+	margin-right: 172px;	
 	/*flex-grow: 2;*/
 }
 
@@ -82,7 +84,7 @@
 	width: 18px;
 	height: 18px;
 	top: 12px;
-	left: 0;
+	left: 4px;
 }
 
 .user-list__item--logout {

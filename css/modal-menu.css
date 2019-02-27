@@ -4,10 +4,10 @@
 	justify-content: left;
 	background-color: #f7e296;
 	padding-left: 60px;
-	padding-top:20px;
+	padding-top:18px;
 	position: absolute;
 	left: -60px;
-  top: 20px;
+  top: 26px;
 	z-index: 3;
 	display: flex;
   visibility: hidden;
@@ -22,15 +22,20 @@
 
 .modal-menu__list {
 	list-style: none;
-	width: 220px;
+	width: 200px;
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	padding-bottom: 35px;
+	padding-bottom: 33px;
+}
+
+.modal-menu__list--1 {
+	margin-right: 40px;
 }
 
 .modal-menu__item {
 	padding-bottom: 10px;
+	letter-spacing: 0.05em;
 }
 
 .modal-menu__item a {

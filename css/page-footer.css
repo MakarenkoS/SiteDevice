@@ -1,6 +1,6 @@
 .page-footer {
 	background-color: #464646;
-	margin-top: 190px;	
+	margin-top: 177px;	
 }
 
 .inner-page.page-footer {
@@ -20,12 +20,13 @@
 	margin: 0;	
 	padding: 0;	
   width: 260px;
-	padding-top: 65px;	
+	padding-top: 64px;	
 }
 
 .page-footer__list {
 	width: 400px;
-	margin-top: 65px;	
+	margin-top: 60px;	
+	padding-right: 0;
 }
 
 .page-footer__contacts {
@@ -48,12 +49,12 @@
 .page-footer__wrapper::after {
 	position: absolute;
 	content: "";
-	width: 100px;
+	width: 81px;
 	height: 7px;
 	background-color: #ffc600;
 	left: 0px;
 
-	bottom: 67px;
+	bottom: 84px;
 }
 
 .page-footer__academy-logo {

@@ -17,9 +17,10 @@
 
 .page-header__logo {
 	position: relative;
-	top: -22px;
+	top: -24px;
 	margin: 0;
 	padding: 0;
+	
 }
 
 .page-header__wrapper::after {
