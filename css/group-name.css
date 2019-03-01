@@ -25,7 +25,19 @@
 	height: 70px;
 	position: absolute;
 	top: 149px;
+	left: -18px;
 	/*background-color: #555;*/
   background: linear-gradient(to right, #dbdbdb 0%, #dbdbdb 50%, #ebebeb  50%, #ebebeb 100%);
 }
+
+.group-name::before {
+	z-index: -1;
+	content: "";
+	width: 100%;
+	min-height: 1220px;
+	position: absolute;
+	top: 219px;
+	left: -18px;
+	/*background-color: #555;*/
+  background: linear-gradient(to right,#ebebeb 50%,#fff 50%);
 

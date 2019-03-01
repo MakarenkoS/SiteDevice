@@ -15,6 +15,7 @@
 .gallery__cards-wrapper {
 	display: flex;
 	flex-direction: column;
+	background-color: #fff;
 }
 
 .gallery__header {
