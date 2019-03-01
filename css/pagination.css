@@ -11,8 +11,8 @@
 
 .pagination__item a {
 	display: inline-block;	
-	padding: 24px 30px;
 	color: #000;
+	padding: 24px 10px;
 	font-family: "Gilroy";
 	font-weight: bolder;
 	font-size: 16px;
@@ -21,17 +21,23 @@
 	opacity: 0.3;
 }
 
+.pagination__item--back a,
+.pagination__item--forward a {
+	padding: 24px 30px;
+	letter-spacing: 0.2em;
+}
+
 .pagination__item--forward a,
 .pagination__item--back a {
 	opacity: 1;
 }
 
 .pagination__item:first-child {
-	margin-right: 160px;
+	margin-right: 188px;
 }
 
 .pagination__item:last-child {
-	margin-left: 160px;
+	margin-left: 182px;
 }
 
 .pagination__item a:hover {

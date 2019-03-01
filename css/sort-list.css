@@ -17,7 +17,7 @@
 }
 
 .sort-list__item--arrow {
-	margin-left: 150px;
+	margin-left: 202px;
 	margin-right: 30px;	
 	
 }
@@ -69,15 +69,15 @@
 	opacity: 1;
 }
 
-.arrow-top a::after {
+.arrow-bottom a::after {
 	border-top-width: 10px;
 	border-bottom-color: transparent;
 	border-left-color:transparent;
 	border-right-color: transparent;
-	top: 4px;
+	top: 22px;
 }
 
-.arrow-bottom a::after {
+.arrow-top a::after {
   border-bottom-width: 10px;
 	border-top-color: transparent;
 	border-left-color:transparent;

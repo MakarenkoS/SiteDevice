@@ -28,7 +28,6 @@
 	width: 20px;
 	height: 20px;
 	content: "";
-
 	background-color: #ffffff;
 	border-radius: 50%;
 	box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
@@ -58,12 +57,15 @@
 
 .price__input-wrapper {
 	display: flex;
-	justify-content: space-between;
-	margin-top: 30px;
+	margin-top: 10px;
 	font-size: 14px;
 	line-height: 22px;
 	color: #c6c6c6;
 	font-weight: lighter;
+}
+
+.price__input--label-max {
+	margin-left:12px;
 }
 
 .price__input--label:hover {
@@ -81,7 +83,7 @@
 }
 
 .price__input {
-	padding-left: 10px;
+	padding-left: 1px;
 	width: 60px;
 	text-align: left;
   font: inherit;
