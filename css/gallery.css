@@ -20,8 +20,14 @@
 .gallery__header {
 	margin: 0;
 	padding: 24px 0;
+	letter-spacing: 0.15em;
 	text-transform: uppercase;	
 	padding-left: 73px;	
 	background-color: #ebebeb;
-	width: 273px;
+	width: 268px;
+}
+
+.gallery__pagination {
+	margin-top: 61px;	
+	padding-right: 	18px;
 }

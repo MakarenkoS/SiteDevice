@@ -7,6 +7,7 @@
 	flex-wrap: wrap;
 	margin-left: 74px;
 	justify-content: space-between;
+	padding-right: 18px;
 
 }
 
@@ -16,7 +17,7 @@
 	display: flex;
 	flex-direction: column-reverse;
 	order: 1;
-	margin-top: 73px;
+	margin-top: 68px;
 }
 
 .cards__item--new::after {
@@ -60,7 +61,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 35px;
+	margin-top: 27px;
 	align-items: baseline;
 }
 
