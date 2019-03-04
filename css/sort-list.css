@@ -5,10 +5,11 @@
 	display: 	flex;
 	flex-direction: row;
 	justify-content:left;
-	width: 560px;
+	width: 580px;
 	font-family: "Open Sans";
 	font-weight: normal;	
 	background-color: #ebebeb;
+	padding-left: 25px;
 
 }
 

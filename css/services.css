@@ -39,7 +39,7 @@
 
 .services__button {
 	width: 160px;
-	padding-left: 	20px;
+	padding-left: 	24px;
 }
 
 /*.services__list .button {
@@ -70,7 +70,7 @@
 
 .services__slide {
 	width: 880px;
-	padding-left: 120px;
+	padding-left: 123px;
 	padding-right: 300px;	
 	display: none;	
 }

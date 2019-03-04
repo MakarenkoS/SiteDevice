@@ -33,11 +33,11 @@
 }
 
 .pagination__item:first-child {
-	margin-right: 188px;
+	margin-right: 193px;
 }
 
 .pagination__item:last-child {
-	margin-left: 182px;
+	margin-left: 160px;
 }
 
 .pagination__item a:hover {

@@ -1,5 +1,6 @@
 .catalog__columns-wrapper {
 	display: flex;
+	padding-left: 20px;
 }
 
 .catalog__columns-wrapper--filter {

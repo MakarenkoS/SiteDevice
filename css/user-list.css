@@ -23,7 +23,7 @@
 .user-list__item--user {
 	
 	margin-left: 0;	
-	margin-right: 175px;	
+	margin-right: 183px;	
 	/*flex-grow: 2;*/
 }
 
@@ -96,7 +96,7 @@
 .user-list__item--logout {
 	margin-left: 0;
 	padding-left: 0;
-	margin-right: 3px;	
+	margin-right:24px;	
 }
 
 .page-footer .user-list__item--logout {
