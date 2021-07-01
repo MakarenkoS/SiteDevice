@@ -6,13 +6,16 @@
 }
 
 .price__scale {
+  position: relative;
 	width: 100%;
 	background-color: #dbdbdb;
 	height: 2px;
 }
 
 .price__bar {
-	width: 75%;
+  position: absolute;
+  left: 0px;
+	width: 150px;
 	height: 2px;
 	background-color: #91c92f;
 }
@@ -48,11 +51,11 @@
 	background-color: #000;
 }
 
-.price__handel--start{
+.price__handle--start{
 	left: 0;
 }
 .price__handle--end {
-	margin-left: 150px;
+	left: 150px;
 }
 
 .price__input-wrapper {

@@ -75,4 +75,3 @@ mapClose.addEventListener("click", function(evt) {
 			map.classList.remove("modal-map--show");
 	}
 })
-
